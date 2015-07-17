@@ -58,28 +58,28 @@ is anything other than an integer between 1 and 8, the function should return th
 func GetFortune(num int) string {
 	switch num {
 	case 1:
-		return "Fortune one"
+		return "Bad Fortune one"
 
 	case 2:
-		return "Fortune two"
+		return "Bad Fortune two"
 
 	case 3:
-		return "Fortune three"
+		return "Bad Fortune three"
 
 	case 4:
-		return "Fortune four"
+		return "Bad Fortune four"
 
 	case 5:
-		return "Fortune five"
+		return "Bad Fortune five"
 
 	case 6:
-		return "Fortune six"
+		return "Bad Fortune six"
 
 	case 7:
-		return "Fortune seven"
+		return "Bad Fortune seven"
 
 	case 8:
-		return "Fortune eight"
+		return "Bad Fortune eight"
 	}
 	return "Invalid fortune number"
 }
